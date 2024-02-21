@@ -4,16 +4,14 @@
         let na=document.getElementById("text").value;
         let nb=document.getElementById("text1").value;
          
-         if(na == "pradeep-kumar"){
-            if(nb == "485518110"){
+         if(na == ""){
+            if(nb == ""){
                 window.location = "homepage.html";
             }
-            else{
-                alert("innvalid password");
-            }
+             
          }
          else{
-            alert("please enter the User name and password")
+            alert("invalide User name and password")
          }
              
         
